@@ -1,0 +1,54 @@
+#poop1 {
+    background-color: cornflowerblue;
+}
+
+#poop2 {
+    background-color: yellow;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    background-color: yellow;
+}
+
+h4 {
+    background-color: green;
+    color: yellow;
+}
+
+h5 {
+    color: red;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#goldbold {
+    color: gold;
+}
+
+#red {
+    color: red;
+}
+
+#green {
+    background-color: lightgreen;
+}
+
+#blue {
+    color: blue;
+}
