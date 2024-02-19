@@ -1,0 +1,28 @@
+nav {
+    background-color: grey;
+    color: white;
+}
+header {
+    background-color: lightgrey;
+}
+main {
+    background-color: pink;
+}
+a {
+    color: red;
+}
+a:hover {
+    color: yellow;
+}
+a:visited {
+    color: green;
+}
+.darkred {
+    color: darkred;
+}
+span {
+    color: grey;
+}
+#poop {
+    background-color: crimson;
+}
