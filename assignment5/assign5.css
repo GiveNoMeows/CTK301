@@ -1,0 +1,77 @@
+body {
+    background-image: url(a5bg.png);
+}
+
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: normal;
+    background-color: white;
+    padding: 24px;
+}
+
+h2 {
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 3px solid black;
+}
+
+main {
+    background-color: white;
+    padding: 24px;
+    margin-top: 24px;
+}
+
+.justify {
+    text-align: justify;
+}
+
+main a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
+    padding: 0px;
+    margin-right: 10px;
+    width: 150px;
+    background-color: darkblue;
+    display: inline-block;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: blue;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding: 24px;
+    margin-top: 24px;
+    background-color: darkblue;
+    border: 3px solid white;
+    color: white;
+}
