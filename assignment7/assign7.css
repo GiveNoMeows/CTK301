@@ -1,0 +1,143 @@
+#wrapper {
+    background-color: white;
+    border: 3px solid darkblue;
+    margin: 1em auto;
+    padding: 0px;
+    width: 960px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+header {
+    background-image: linear-gradient(blue, darkblue);
+    grid-column: span 12;
+}
+
+header a {
+    color:cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: normal;
+    margin: 24px;
+}
+
+header a:hover {
+    color: white;
+}
+
+nav {
+    grid-column: span 12;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
+    display: inline-block;
+    border: 3px solid darkblue;
+    width: 234px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav a {
+    display: block;
+    color:cornflowerblue;
+    background-image: linear-gradient(blue, darkblue);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0px;
+    padding: 12px;
+}
+
+nav a:hover {
+    background-image: none;
+    color: white;
+    background-color: #d01e00;
+}
+
+.white {
+    color: white;
+}
+
+main {
+    padding: 24px;
+    grid-column: span 8;
+}
+
+a {
+    color: #d01e00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: blue;
+}
+
+img {
+    width: 272px;
+}
+
+main img {
+    border: 3px solid darkblue;
+    margin-bottom: 24px;
+    width: auto;
+}
+
+#Barbie {
+    grid-column: span 4;
+    margin: 24px;
+}
+
+#Ken {
+    grid-column: span 4;
+    margin: 24px;
+}
+
+#Allan {
+    grid-column: span 4;
+    margin: 24px;
+}
+
+#img1 {
+    float: left;
+    margin-right: 24px
+}
+
+#img2 {
+    float: right;
+    margin-left: 24px;
+}
+
+h2 {
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding-bottom: 6px;
+    border-bottom: 3px solid darkblue;
+}
+
+aside {
+    background-color: cornflowerblue;
+    padding: 24px;
+    grid-column: span 4;
+}
+
+aside p {
+    font-weight: bold;
+    text-align: justify;
+}
+
+footer {
+    background-color: #d01e00;
+    padding: 12px;
+    border-top: 3px solid darkblue;
+    grid-column: span 12;
+}
